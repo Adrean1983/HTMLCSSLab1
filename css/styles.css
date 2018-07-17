@@ -22,27 +22,38 @@ li {
     float: left;
 }
 p {
-    width: 300px;
+    width: 500px;
+    border-left: solid 5px #69696a;
 }
 .circles {
     float: right;
-
+    position: relative;
 }
 .circle1 {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     background-color: rgba(247, 193, 162, 0.7);
     border-radius: 85px;
+    position: absolute;
+    top: 200px;
+    right: 50px;
 }
 .circle2 {
     height: 100px;
     width: 100px;
     background-color: rgba(207, 130, 213, 0.6);
     border-radius: 85px;
+    position: absolute;
+    right: 50px;
+    top: 115px;
 }
 .circle3 {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     background-color: rgba(247, 136, 167, 0.6);
-    border-radius: 85px;
+    border-radius: 100px;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+
 }
