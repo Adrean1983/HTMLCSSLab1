@@ -9,10 +9,20 @@ body {
 
 ul {
     float: right;
+    padding: 0 20px 0 20px
 }
 
 li {
     display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 0px;
+}
+
+.button {
+    background-color: #000;
+    color: #f9fafc;
+    border-radius: 85px;
+    padding: 10px 30px;
 }
 
 .clearing {
@@ -20,10 +30,16 @@ li {
 }
 .leftbody {
     float: left;
+    margin-left: 2%;
+}
+
+h2 {
+    padding-top: 65px;
 }
 p {
     width: 500px;
     border-left: solid 5px #69696a;
+    padding: 0px 10px;
 }
 .circles {
     float: right;
@@ -48,12 +64,14 @@ p {
     top: 115px;
 }
 .circle3 {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-color: rgba(247, 136, 167, 0.6);
-    border-radius: 100px;
+    border-radius: 150px;
     position: absolute;
     right: 100px;
     top: 100px;
-
+}
+footer {
+    display: inline-block;
 }
