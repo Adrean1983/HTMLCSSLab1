@@ -72,17 +72,19 @@ p {
     right: 115px;
     top: 150px;
 }
+
 footer {
     display: inline-block;
     position: fixed;
     left: 0;
     bottom: 5%;
-    margin: auto;
-    width: 30%;
+    width: 100%;
 }
-/* .button {
+.footerbutton {
     background-color: #000;
     color: #f9fafc;
     border-radius: 85px;
     padding: 10px 30px;
-} */
+    margin: auto 42%;
+    width: 10%;
+}
