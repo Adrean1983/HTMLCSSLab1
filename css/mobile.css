@@ -28,14 +28,13 @@ li {
     color: #f9fafc;
     border-radius: 85px;
     padding: 10px 30px;
-    width: 65%;
+    width: 84%;
     text-align: center;
 }
 
 .leftbody {
     float: none;
-    margin-left: 2%;
-    margin-top: 10%;
+    margin: 10% 5%;
     width: 48%;
 }
 
@@ -50,30 +49,30 @@ p {
 }
 
 footer {
-    display: inline-block;
+    /* display: inline-block;
     left: 0;
     bottom: 5%;
-    width: 100%;
+    width: 100%; */
     /* left: 0;
-    bottom: 5%;
-    width: 100%;
+    bottom: 5%; */
+    width: 90%;
     margin: auto;
-    display: block;
-    position: relative;
-    text-align: center; */
+    /* display: block; */
+    /* position: relative; */
+    text-align: center;
 }
 
 .footerbutton {
-    background-color: #000;
-    color: #f9fafc;
-    border-radius: 85px;
-    padding: 10px 30px;
-    margin: auto 32%;
-    width: 10%;
     /* background-color: #000;
     color: #f9fafc;
     border-radius: 85px;
     padding: 10px 30px;
-    width: 60%;
-    display: block; */
+    margin: auto 32%;
+    width: 10%; */
+    background-color: #000;
+    color: #f9fafc;
+    border-radius: 85px;
+    padding: 10px 30px;
+    /* width: 80%; */
+    display: block;
 }
