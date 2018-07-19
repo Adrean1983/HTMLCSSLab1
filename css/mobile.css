@@ -13,7 +13,6 @@ body {
 ul {
     clear:left;
     float:none;
-    /* float: right; */
     padding: 0 20px 0 20px;
 }
 
@@ -49,30 +48,15 @@ p {
 }
 
 footer {
-    /* display: inline-block;
-    left: 0;
-    bottom: 5%;
-    width: 100%; */
-    /* left: 0;
-    bottom: 5%; */
     width: 90%;
     margin: auto;
-    /* display: block; */
-    /* position: relative; */
     text-align: center;
 }
 
 .footerbutton {
-    /* background-color: #000;
-    color: #f9fafc;
-    border-radius: 85px;
-    padding: 10px 30px;
-    margin: auto 32%;
-    width: 10%; */
     background-color: #000;
     color: #f9fafc;
     border-radius: 85px;
     padding: 10px 30px;
-    /* width: 80%; */
     display: block;
 }
