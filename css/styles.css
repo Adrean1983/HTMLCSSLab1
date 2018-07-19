@@ -1,5 +1,9 @@
 @media only screen and (min-width: 479px) {
-
+    
+    body {
+        background-color: #f9fafc;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
     ul {
         float: right;
         clear: none;
@@ -18,6 +22,8 @@
     }
     .leftbody {
         float: left;
+        margin-left: 2%;
+        margin-top: 10%;
     }
 
     p {
@@ -27,7 +33,7 @@
     .circles {
         float: right;
         position: relative;
-        width: 50%;
+        width: 45%;
         display: block;
     }
 
